@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techygeek.saferoot.saferoot" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/rootprivileges"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo">
+        <activity
+            android:name="com.techygeek.saferoot.saferoot.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.techygeek.saferoot.saferoot.SplashScreen"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.techygeek.saferoot.saferoot.RooterActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_root" >
+        </activity>
+        <activity
+            android:name="com.techygeek.saferoot.saferoot.UnRooterActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_root" >
+        </activity>
+        <activity
+            android:name="com.techygeek.saferoot.saferoot.RootChecker"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_rootchecker" >
+        </activity>
+    </application>
+
+</manifest>
