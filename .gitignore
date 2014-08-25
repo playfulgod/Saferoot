@@ -14,6 +14,14 @@ ant.properties
 
 #Gradle
 .gradle
+gradle
+.iml
+gradlew*
+local.*
+settings.*
+.idea
+md5.txt
+build.*
 build
 gradle.properties
 gradle-app.setting
