@@ -16,7 +16,8 @@ ant.properties
 .gradle
 gradle
 .iml
-gradlew*
+gradlew.*
+gradlew
 local.*
 settings.*
 .idea
