@@ -17,11 +17,13 @@ ant.properties
 gradle
 .iml
 gradlew.*
+gradlew.bat
 gradlew
 local.*
-settings.*
+settings.gradle
 .idea
 md5.txt
+build.gradle
 build.*
 build
 gradle.properties
